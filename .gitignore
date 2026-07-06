@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+frontend/dist/
+backend/server
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+
+# Python
+ai-service/__pycache__/
+ai-service/*.pyc
+ai-service/.venv/
+
+# Docker
+docker-compose.override.yml
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
